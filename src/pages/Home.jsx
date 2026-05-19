@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import SolutionsSection from "../components/SolutionsSection";
 
 function Home() {
   const line1Text = "Advanced Vehicle";
@@ -168,6 +169,8 @@ function Home() {
           safe with 24/7 real-time tracking.
         </p>
       </div>
+
+      <SolutionsSection />
 
       {/* ANIMATIONS */}
       <style>{`
