@@ -141,9 +141,20 @@ function Home() {
         </div>
       )}
 
+      {/* CENTER IMAGE SECTION */}
+      <div className="w-full py-10 md:py-16 px-5 md:px-16 bg-white">
+        <div className="w-full max-w-6xl mx-auto rounded-3xl overflow-hidden flex justify-center">
+          <img
+            src="/unique.png"
+            alt="tracking"
+            className="w-full h-[180px] sm:h-[320px] md:h-[420px] object-contain rounded-3xl"
+          />
+        </div>
+      </div>
+
       {/* NEW CENTER SECTION */}
-      <div className="text-center px-6 md:px-40 py-20  md:-mt-10 space-y-6 bg-white">
-        <h2 className="text-red-600 text-3xl md:text-4xl font-normal">
+      <div className="text-center px-6 md:px-40 py-20  md:-mt-20 space-y-6 bg-white">
+        <h2 className="text-red-600 text-3xl md:text-4xl font-bold">
           Track Your Car, Bike, Asset, and <br />
           Loved Ones with Tracking World.
         </h2>
