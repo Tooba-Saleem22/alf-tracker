@@ -171,6 +171,37 @@ function Home() {
       </div>
 
       <SolutionsSection />
+      {/* OUR VALUED CUSTOMERS SECTION */}
+      <section className="w-full pt-10 pb-10  mb-10 px-2 md:px-16 bg-red-600/10 overflow-hidden">
+        {/* HEADING */}
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-red-600">
+            Our Valued Customers
+          </h2>
+        </div>
+
+        {/* LOGOS */}
+        <div className="flex justify-center items-center gap-6 md:gap-12 flex-nowrap">
+          {[
+            "/Cola-cola-png-logo-Tracking-World.png",
+            "/Hyundai-Logo.webp",
+            "/Total-Logo.png",
+            "/Tracking-World-Logo-2.png",
+            "/Tracking-World-Logo-018.png",
+          ].map((logo, index) => (
+            <div
+              key={index}
+              className="transition-all duration-300 hover:scale-105 flex-shrink-0"
+            >
+              <img
+                src={logo}
+                alt="customer"
+                className="h-8 md:h-12 w-auto object-contain bg-transparent"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* ANIMATIONS */}
       <style>{`

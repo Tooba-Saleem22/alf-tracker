@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
+import { useRef } from "react";
+
 import { Car, Fuel, Truck, Lightbulb, Camera, Droplets } from "lucide-react";
+import FeatureShowcaseSection from "./FeatureShowcaseSection";
 
 function SolutionsSection() {
   const solutions = [
@@ -203,82 +206,7 @@ function SolutionsSection() {
           </div>
         </div>
       </section>
-
-      {/* FEATURE SHOWCASE GRID SECTION */}
-      <section className="w-full bg-white py-20 px-5 md:px-16 overflow-hidden">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-14">
-          Powerful <span className="text-red-600">Tracking Features</span>
-        </h2>
-
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
-          {/* LEFT SIDE STACK */}
-          <div className="flex flex-col gap-8">
-            <div className="bg-[#fafafa] rounded-2xl p-5 shadow-md text-center">
-              <img
-                src="/Vehicle Immobilization.png"
-                className="h-28 mx-auto object-contain"
-              />
-              <h3 className="mt-3 font-semibold">Vehicle Immobilization</h3>
-            </div>
-
-            <div className="bg-[#fafafa] rounded-2xl p-5 shadow-md text-center">
-              <img
-                src="/Theft Alerts.png"
-                className="h-28 mx-auto object-contain"
-              />
-              <h3 className="mt-3 font-semibold">Theft Alerts</h3>
-            </div>
-
-            <div className="bg-[#fafafa] rounded-2xl p-5 shadow-md text-center">
-              <img
-                src="/24×7 Monitoring.png"
-                className="h-28 mx-auto object-contain"
-              />
-              <h3 className="mt-3 font-semibold">24×7 Monitoring</h3>
-            </div>
-          </div>
-
-          {/* CENTER IPHONE */}
-          <div className="flex justify-center items-center">
-            <div className="bg-[#fafafa] rounded-2xl p-6 shadow-xl">
-              <img
-                src="/iphone.png"
-                className="h-[420px] object-contain mx-auto"
-              />
-              <h3 className="text-center mt-4 font-semibold text-red-600">
-                Smart Mobile App Control
-              </h3>
-            </div>
-          </div>
-
-          {/* RIGHT SIDE STACK */}
-          <div className="flex flex-col gap-8">
-            <div className="bg-[#fafafa] rounded-2xl p-5 shadow-md text-center">
-              <img
-                src="/Harsh Breaking Report.png"
-                className="h-28 mx-auto object-contain"
-              />
-              <h3 className="mt-3 font-semibold">Harsh Breaking Report</h3>
-            </div>
-
-            <div className="bg-[#fafafa] rounded-2xl p-5 shadow-md text-center">
-              <img
-                src="/Speed Alerts.png"
-                className="h-28 mx-auto object-contain"
-              />
-              <h3 className="mt-3 font-semibold">Speed Alerts</h3>
-            </div>
-
-            <div className="bg-[#fafafa] rounded-2xl p-5 shadow-md text-center">
-              <img
-                src="/Vehicle Location.png"
-                className="h-28 mx-auto object-contain"
-              />
-              <h3 className="mt-3 font-semibold">Vehicle Location</h3>
-            </div>
-          </div>
-        </div>
-      </section>
+      <FeatureShowcaseSection />
 
       {/* ANIMATIONS */}
       <style>
