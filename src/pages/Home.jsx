@@ -220,7 +220,7 @@ function Home() {
                   alt={`gallery-${index}`}
                   className="
               w-full
-              h-[180px] md:h-[440px]
+              h-[180px] md:h-[470px]
               object-cover
               rounded-xl
             "
