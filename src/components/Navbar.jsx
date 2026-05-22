@@ -13,7 +13,7 @@ function Navbar() {
 
   const pages = [
     { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
+    { name: "About Us", path: "/about" },
     { name: "Services", path: "/services" },
     { name: "Pricing", path: "/pricing" },
     { name: "Contact Us", path: "/contacts" },
