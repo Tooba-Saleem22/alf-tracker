@@ -50,8 +50,9 @@ function About() {
         />
 
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-          <h1 className="text-white text-4xl md:text-5xl md:mt-20 mt-20 font-bold">
-            About Us
+          <h1 className="text-white text-4xl md:text-5xl font-bold mt-20">
+            <span className="text-white">About</span>{" "}
+            <span className="text-red-500">Us</span>
           </h1>
         </div>
       </section>
