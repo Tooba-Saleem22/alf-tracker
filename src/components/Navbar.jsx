@@ -15,7 +15,7 @@ function Navbar() {
     { name: "About Us", path: "/about" },
     { name: "Services", path: "/services" },
     { name: "Pricing", path: "/pricing" },
-    { name: "Contact Us", path: "/contacts" },
+    { name: "Contact Us", path: "/contact" },
   ];
 
   // body scroll lock
