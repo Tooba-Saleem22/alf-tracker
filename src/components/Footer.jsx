@@ -103,7 +103,7 @@ function Footer() {
 
         {/* COPYRIGHT */}
         <div className="mt-8 text-center text-gray-400 text-xs">
-          © 2026 ALF Tracker. All rights reserved.
+          © 2026 ALF Tracker..
         </div>
       </div>
     </footer>
