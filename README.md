@@ -1,18 +1,65 @@
-# React + Vite
+# ALF Tracker Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Official website for ALF Tracker, designed to showcase the company's vehicle tracking, fleet management, and IoT-based monitoring solutions.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ALF Tracker provides advanced tracking and monitoring services for individuals and businesses. This website presents the company's services, solutions, pricing information, and contact details through a modern and responsive user interface.
 
-## React Compiler
+## Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* Fully responsive design
+* Modern user interface
+* Smooth page navigation
+* Service showcase sections
+* Pricing page
+* Contact page with FAQ section
+* Customer showcase
+* Call-to-action sections
+* Mobile-friendly navigation
 
-Note: This will impact Vite dev & build performances.
+## Services
 
-## Expanding the ESLint configuration
+### Individual Solutions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Vehicle Tracking
+* Bike Tracking
+* Personal Tracking
+
+### Business Solutions
+
+* Fleet Management Solution
+* Fuel Management Solution
+* Smart Energy Management
+* AI-Based Vehicle Video Surveillance
+* Cold Chain Monitoring
+* Water Level Monitoring
+* Smart Farm Management
+* Moveable Asset Tracking System
+* Vessel Monitoring
+* Automated Fuel Terminals
+
+## Technology Stack
+
+* React.js
+* React Router DOM
+* Tailwind CSS
+* Framer Motion
+* Lucide React
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## Production Build
+
+```bash
+npm run build
+```
+
+## Deployment
+
+The project can be deployed on Vercel, Netlify, or any static hosting platform that supports React applications.
